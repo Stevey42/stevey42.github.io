@@ -5,7 +5,7 @@ var app = new Vue({
   },
   methods:{
     onClick:function(){
-      this.seen = false;
+      this.seen = !this.seen;
     }
   }
   
